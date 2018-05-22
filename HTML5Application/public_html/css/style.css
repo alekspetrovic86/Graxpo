@@ -43,6 +43,9 @@ h1,h2,h3,h4,h5,h6{
 .dash.text-center:after{
     margin: 15px auto 0;
 }
+.dash-white:after{
+    background: #fff;
+}
 
 
 /*HEADER*/
@@ -144,4 +147,13 @@ header{
 .service-item:hover .service-icon .fa{
     background: #fff;
     color: #E84C3D;
+}
+
+
+/*PORTFOLIO*/
+
+.portfolio{
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
 }
