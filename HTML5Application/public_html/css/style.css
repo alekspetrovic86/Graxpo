@@ -43,6 +43,10 @@ h1,h2,h3,h4,h5,h6{
 
 /*HEADER*/
 
+header{
+    background: rgba(150,150,150, 0.5);
+}
+
 
 .navbar-brand{
     font-family: 'Leckerli One', cursive;
@@ -101,4 +105,8 @@ h1,h2,h3,h4,h5,h6{
     display: table-cell;
     vertical-align: middle;
     min-width: 1%;
+}
+
+.btn-danger, .bg-danger{
+    background-color: #E84C3D;
 }
