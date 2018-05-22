@@ -1,3 +1,17 @@
+
+/*
+    font-family: 'Leckerli One', cursive;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+*/
+
+
+
+
+
 html{
     font-size: 14px;
 }
@@ -5,4 +19,70 @@ html{
 
 img{
     max-width: 100%;
+}
+
+
+body{
+    color: #81868e;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.dash:after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #ccc;
+    margin-top: 15px;
+}
+
+
+/*HEADER*/
+
+
+.navbar-brand{
+    font-family: 'Leckerli One', cursive;
+    font-size: 2rem;
+    color: #E84C3D!important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #E84C3D!important;
+    
+}
+.navbar-light .navbar-toggler:hover {
+    background-color: #E84C3D!important;
+    
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(232, 76, 61, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-light .navbar-toggler:hover .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    text-transform: uppercase;
+    color: #333B46;
+    padding: 5px 10px;
+    border-bottom: 1px solid #eee;
+    transition: 0.5s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+    background: #E84C3D;
+    color: #fff;
+}
+
+
+.navbar-nav{
+    background: #fff;
 }
